@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PUVLdGX4V4KkpI1deOu844iFyXDhVqbSY96sAQ6q4VWoYlHiEWDi4rYWdXXj+oPbkdW1WMinlNhNzcy9wPjIyQ==",
+  "success": true,
+  "projectFilePath": "C:\\curso_api_netcore\\src\\API.Data\\Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marina\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Marina\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
