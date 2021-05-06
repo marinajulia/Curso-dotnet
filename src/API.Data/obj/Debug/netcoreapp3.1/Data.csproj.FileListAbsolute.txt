@@ -7,3 +7,6 @@ C:\curso_api_netcore\src\API.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInput
 C:\curso_api_netcore\src\API.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
 C:\curso_api_netcore\src\API.Data\obj\Debug\netcoreapp3.1\Data.dll
 C:\curso_api_netcore\src\API.Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\curso_api_netcore\src\API.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\curso_api_netcore\src\API.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\curso_api_netcore\src\API.Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
