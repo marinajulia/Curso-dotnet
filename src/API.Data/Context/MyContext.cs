@@ -7,9 +7,9 @@ namespace API.Data.Context
     {
         public DbSet<UserEntity> Users { get; set; }//recebe a referrência da tabela entidade
 
-        public MyContext(DbContextOptions<MyContext> options) : base(options) { }//construtor
+        public MyContext(DbContextOptions<MyContext> options) : base(options) { }//construtor** Passo a clase MyContext para ele devolver o options, para injetar essa options na base
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)//aplicar dados iniciais ao banco de dados como parte de sua migração
         {
             base.OnModelCreating(modelBuilder);
         }
