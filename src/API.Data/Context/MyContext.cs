@@ -1,3 +1,4 @@
+using API.Data.Mapping;
 using API.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,6 +13,7 @@ namespace API.Data.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)//aplicar dados iniciais ao banco de dados como parte de sua migração
         {
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<UserEntity>(new UserMap().Configure); //novo item na classe UserMap, e executa o método Configure
         }
     }
 }

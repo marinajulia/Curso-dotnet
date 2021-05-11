@@ -6,7 +6,7 @@ namespace API.Domain.Entities
     public abstract class BaseEntity
     {
         [Key]
-        public Guid id { get; set; }
+        public Guid Id { get; set; }
         //? pode receber nulo
         private DateTime? _createAt;
         public DateTime? MyProperty
