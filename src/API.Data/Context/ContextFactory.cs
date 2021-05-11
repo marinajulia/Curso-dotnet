@@ -10,7 +10,7 @@ namespace API.Data.Context
         {
             //colocar as configurações
             //usado para criar migrações
-            var connectionString = "Server=localhost;Port3306;Database=dbAPI;Uid=root;Pwd=julia24MAISA";
+            var connectionString = "Server=localhost;Port=3306;Database=dbAPI;Uid=root;Pwd=julia24MAISA";
             var optionBuilder = new DbContextOptionsBuilder<MyContext>();//use entity framework core
             optionBuilder.UseMySql(connectionString);
             return new MyContext(optionBuilder.Options);
