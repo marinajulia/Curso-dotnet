@@ -6,7 +6,7 @@ using API.Domain.Entities;
 namespace API.Domain.Interfaces
 {//como vai ser uma interface de um repositório, ela deve ser um repositório padrão
  //o T no IRepository representa um repositório genérico
-    public interface IRepository<T> where T : BaseEntity //onde T seja um tipo de BaseEntity //use api domain Entities
+    public interface IRepository<T> where T : BaseEntity //onde T seja um tipo de BaseEntity //use api domain Entities // poser ser qualquer letra
     {
         //Task será uma tarefa
         //InsertAsync faz com que pode executar vários de uma vez
