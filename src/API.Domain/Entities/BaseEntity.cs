@@ -16,5 +16,6 @@ namespace API.Domain.Entities
         }
 
         public DateTime UpdateAt { get; set; }
+        public DateTime CreateAt { get; set; }
     }
 }

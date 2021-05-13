@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using API.Data.Context;
 using API.Domain.Entities;
 using API.Domain.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Data.Repository
 {
@@ -11,18 +12,37 @@ namespace API.Data.Repository
     public class BaseRepository<T> : IRepository<T> where T : BaseEntity //no IRepository<T> colocar implementação da interface
     {
         protected readonly MyContext _context; //_context é a variável
+        private DbSet<T> _dataset;
+
         public BaseRepository(MyContext context)//construtor
         {
             _context = context;
+            _dataset = _context.Set<T>();
         }
         public Task<bool> DeleteAsync(Guid id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<T> InsertAsync(T item)
+        public async Task<T> InsertAsync(T item)
         {
-            throw new NotImplementedException();
+            try
+            {
+                if (item.Id == Guid.Empty)
+                {//Empty é vazio--- se for vazio, ele vai atribuir um novo Guid
+                    item.Id = Guid.NewGuid();
+                }
+
+                item.CreateAt = DateTime.UtcNow;
+                _dataset.Add(item);
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            return item;
         }
 
         public Task<T> SelectAsync(Guid id)
