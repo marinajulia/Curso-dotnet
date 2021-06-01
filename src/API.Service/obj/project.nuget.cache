@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "4E2nFKYvcUj/xbpuKQYThyGTDW6WLvbsoVd5gdjBO2uG3jeGUDo8XPzEm7kFnhGwtFVE1sigKVXmtsG0Xa0GTw==",
+  "dgSpecHash": "cK+gyOrHRtQEXecXxbL8QE1sKJ9d3edpNZvg0t4E9zGn2JrHXQfT1cojJewHOAuhI/eOugD6l1GuNfn25yOf8A==",
   "success": true,
-  "projectFilePath": "C:\\curso_api_netcore\\src\\API.Service\\Service.csproj",
+  "projectFilePath": "C:\\Users\\Marina\\Desktop\\cursodetnet\\Curso-dotnet\\src\\API.Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marina\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Marina\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\Marina\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Marina\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }

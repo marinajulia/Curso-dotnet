@@ -18,5 +18,7 @@ namespace API.Domain.Interfaces
         Task<T> SelectAsync(Guid id);
         //vai trazer uma lista com o IEnumerable
         Task<IEnumerable<T>> SelectAsync(); //System.Collections.Generic;
+
+        Task<bool> ExistAsync(Guid id);
     }
 }

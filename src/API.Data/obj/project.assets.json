@@ -5147,24 +5147,27 @@
   },
   "packageFolders": {
     "C:\\Users\\Marina\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\curso_api_netcore\\src\\API.Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\Marina\\Desktop\\cursodetnet\\Curso-dotnet\\src\\API.Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\curso_api_netcore\\src\\API.Data\\Data.csproj",
+      "projectPath": "C:\\Users\\Marina\\Desktop\\cursodetnet\\Curso-dotnet\\src\\API.Data\\Data.csproj",
       "packagesPath": "C:\\Users\\Marina\\.nuget\\packages\\",
-      "outputPath": "C:\\curso_api_netcore\\src\\API.Data\\obj\\",
+      "outputPath": "C:\\Users\\Marina\\Desktop\\cursodetnet\\Curso-dotnet\\src\\API.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\Marina\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5175,9 +5178,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\curso_api_netcore\\src\\API.Domain\\Domain.csproj": {
-              "projectPath": "C:\\curso_api_netcore\\src\\API.Domain\\Domain.csproj"
+            "C:\\Users\\Marina\\Desktop\\cursodetnet\\Curso-dotnet\\src\\API.Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Marina\\Desktop\\cursodetnet\\Curso-dotnet\\src\\API.Domain\\Domain.csproj"
             }
           }
         }
@@ -5190,6 +5194,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers",
@@ -5224,6 +5229,10 @@
         "warn": true,
         "downloadDependencies": [
           {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
             "name": "Microsoft.NETCore.App.Ref",
             "version": "[3.1.0, 3.1.0]"
           },
@@ -5237,7 +5246,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

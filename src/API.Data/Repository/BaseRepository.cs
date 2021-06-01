@@ -19,10 +19,27 @@ namespace API.Data.Repository
             _context = context;
             _dataset = _context.Set<T>();
         }
-        public Task<bool> DeleteAsync(Guid id)
+
+
+        public async Task<bool> DeleteAsync(Guid id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(id));
+                if (result == null)
+                    return false;
+                _dataset.Remove(result);
+                await _context.SaveChangesAsync();
+                return true;
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
+
+
 
         public async Task<T> InsertAsync(T item)
         {
@@ -45,19 +62,62 @@ namespace API.Data.Repository
             return item;
         }
 
-        public Task<T> SelectAsync(Guid id)
+        public async Task<bool> ExistAsync(Guid id)
         {
-            throw new NotImplementedException();
+            return await _dataset.AnyAsync(p => p.Id.Equals(id));
         }
 
-        public Task<IEnumerable<T>> SelectAsync()
+
+        public async Task<T> SelectAsync(Guid id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(id));
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
         }
 
-        public Task<T> UpdateAsync(T item)
+
+
+        public async Task<IEnumerable<T>> SelectAsync()
         {
-            throw new NotImplementedException();
+            try
+            {
+                return await _dataset.ToListAsync();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+        public async Task<T> UpdateAsync(T item)
+        {
+            try
+            {
+                var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(item.Id));
+                if (result == null)
+
+                    return null;
+
+                item.UpdateAt = DateTime.UtcNow;
+                item.CreateAt = result.CreateAt;
+
+                _context.Entry(result).CurrentValues.SetValues(item);
+                await _context.SaveChangesAsync();
+
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return item;
         }
     }
 }

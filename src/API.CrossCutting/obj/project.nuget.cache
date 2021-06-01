@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "SrXaK270CuNXOsRGtJf2rfp8L+/ZNpuyuwOX4hEIC2BaPaColkvnlsDKya+3EEQjO4MA7b1Uuw6UkkrDxzwi5g==",
+  "dgSpecHash": "Xc3r8njlxfyk1JCUH+irXgqwxQWeUhiuQ+wJNlF/yc60SPSRJYHi1fRxOQamSla62gcMPM0iDJJa3pfFCBGy4Q==",
   "success": true,
-  "projectFilePath": "C:\\curso_api_netcore\\src\\API.CrossCutting\\CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\Marina\\Desktop\\cursodetnet\\Curso-dotnet\\src\\API.CrossCutting\\CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marina\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Marina\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\Marina\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Marina\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }
