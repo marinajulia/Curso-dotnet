@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aMnA5167XS1BEZCW+2nSK6aKWCz2/Ti80/6nX5vJ7XPG228oNgqop/ga0gbEUSzySLdL1rTyxX3+EJ8TnIkXlA==",
+  "dgSpecHash": "hLEuKDRh0cidfOqWBMxtpX9gQjr4XcYXoTfIkliL5l61fwVbLCyESI2NXqCDKAovNGfyLSoaVd+xCiaFxLv8UQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marina\\Desktop\\cursodetnet\\Curso-dotnet\\src\\API.Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\Marina\\Desktop\\cursodotnet\\Curso-dotnet\\src\\API.Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marina\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\Marina\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",

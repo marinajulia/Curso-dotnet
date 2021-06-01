@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marina\\Desktop\\cursodetnet\\Curso-dotnet\\src\\API.Service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\Marina\\Desktop\\cursodotnet\\Curso-dotnet\\src\\API.Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "C:\\Users\\Marina\\Desktop\\cursodetnet\\Curso-dotnet\\src\\API.Service\\Service.csproj",
+      "projectPath": "C:\\Users\\Marina\\Desktop\\cursodotnet\\Curso-dotnet\\src\\API.Service\\Service.csproj",
       "packagesPath": "C:\\Users\\Marina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marina\\Desktop\\cursodetnet\\Curso-dotnet\\src\\API.Service\\obj\\",
+      "outputPath": "C:\\Users\\Marina\\Desktop\\cursodotnet\\Curso-dotnet\\src\\API.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

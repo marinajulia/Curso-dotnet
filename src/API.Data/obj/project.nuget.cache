@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r6QMTAPBh5nZb1cuXuaoRPoQ8Kf1wPTbpAVyqseY7620fUk+iBphOGziW06+iKFkZtLnYi9ZeKquA+/CXdhzqg==",
+  "dgSpecHash": "NBJRZpmdtVVO8Z5s0PCKFOPZSFBVkOlqYKcWgi2TJOejj6+xTGBjkUMk/zRnV8WO1f4q71nKUPIxjmeubCropw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marina\\Desktop\\cursodetnet\\Curso-dotnet\\src\\API.Data\\Data.csproj",
+  "projectFilePath": "C:\\Users\\Marina\\Desktop\\cursodotnet\\Curso-dotnet\\src\\API.Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marina\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Marina\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
